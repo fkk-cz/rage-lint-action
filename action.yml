@@ -1,0 +1,13 @@
+# action.yml
+name: "rage-lint"
+description: "Run rage-lint on metafiles"
+inputs:
+  globs:
+    description: "the list of globs to use"
+    required: false
+    default: "**/*.meta"
+runs:
+  using: "docker"
+  image: "Dockerfile"
+  args:
+    - ${{ inputs.globs }}
