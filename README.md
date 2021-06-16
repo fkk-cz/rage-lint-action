@@ -21,7 +21,7 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v2
-      - name: Lint
+      - name: Lint Resources
         uses: GoatG33k/rage-lint-action@v1
 ```
 

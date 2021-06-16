@@ -6,4 +6,4 @@ RUN apt-get install git -yq && \
 ADD . .
 RUN chmod +x .docker/entrypoint.sh
 
-ENTRYPOINT [".docker/entrypoint.sh"]
+ENTRYPOINT ["/.docker/entrypoint.sh"]
