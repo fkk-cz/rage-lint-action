@@ -1,2 +1,2 @@
 #!/bin/sh -l
-python ./rage-lint/rage-lint.py $1
+python /rage-lint/rage-lint.py $1
