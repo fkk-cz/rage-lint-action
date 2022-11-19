@@ -1,4 +1,4 @@
-FROM python:latest
+FROM python:3.10.8-buster
 RUN apt-get install git -yq && \
     git clone https://github.com/GoatG33k/rage-lint.git && \
     pip install -r rage-lint/requirements.txt
